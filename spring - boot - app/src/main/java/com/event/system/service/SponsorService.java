@@ -21,7 +21,7 @@ public class SponsorService {
 	@Autowired
 	public SponsorRepository sponsorRepo;
 	
-	public List<Sponsor> getAllSponsors(){
+	public List<Sponsor> findAllSponsors(){
 		return sponsorRepo.findAll();
 	}
 	

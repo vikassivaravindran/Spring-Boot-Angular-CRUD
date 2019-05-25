@@ -29,7 +29,7 @@ public class SponsorController {
 
 	@GetMapping(value="/sponsors" , produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public List<Sponsor> getSponsors() {
-		return sponsorService.getAllSponsors();
+		return sponsorService.findAllSponsors();
 	}
 
 }
